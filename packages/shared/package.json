@@ -1,0 +1,11 @@
+{
+  "name": "@playground/shared",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "typings": "lib/index.d.ts",
+  "license": "MIT",
+
+  "scripts": {
+    "build": "tsc --build --verbose"
+  }
+}

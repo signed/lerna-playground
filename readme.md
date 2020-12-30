@@ -11,3 +11,7 @@
 
 # Configuration Duplication
 - https://github.com/DylanVann/yarn-workspaces-to-typescript-project-references
+
+
+# Lerna Documentation
+- https://github.com/SchemaStore/schemastore/blob/master/src/schemas/json/lerna.json
