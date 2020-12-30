@@ -5,6 +5,8 @@
 - https://lerna.js.org/
 
 # Template repositories
+- https://github.com/ahoopen/typescript-mono-repo/tree/master
+  - https://medium.com/ah-technology/a-guide-through-the-wild-wild-west-of-setting-up-a-mono-repo-with-typescript-lerna-and-yarn-ed6a1e5467a
 - https://github.com/epfromer/typescript-monorepo/tree/master/packages
 - https://github.com/bryan-hunter/yarn-workspace-lerna-monorepo
   - https://blog.usejournal.com/step-by-step-guide-to-create-a-typescript-monorepo-with-yarn-workspaces-and-lerna-a8ed530ecd6d
