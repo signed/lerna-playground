@@ -1,1 +1,1 @@
-export { SomeType, someFunction } from './domain';
+export { SomeType, someFunction } from './domain.js';

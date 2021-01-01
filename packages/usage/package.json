@@ -1,8 +1,16 @@
 {
   "name": "@playground/usage",
   "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
   "main": "dist/index.js",
+  "module": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "prestart": "tsc --build --verbose",
+    "start": "node dist/index.js"
+  },
   "dependencies": {
-    "@playground/shared": "*"
+    "@playground/shared": "0.1.0"
   }
 }

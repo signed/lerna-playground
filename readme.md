@@ -17,3 +17,8 @@
 
 # Lerna Documentation
 - https://github.com/SchemaStore/schemastore/blob/master/src/schemas/json/lerna.json
+
+
+# Stuff I ran into
+## ES Module related
+- https://stackoverflow.com/a/65208395
