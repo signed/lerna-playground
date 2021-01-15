@@ -1,5 +1,4 @@
-import {someFunction, SomeType} from '@playground/shared';
+import { applicationLogic, Usage } from './usage.js';
 
 
-let message: SomeType = someFunction(7, 'sieben');
-console.log(JSON.stringify(message, null, 2))
+console.log(JSON.stringify(applicationLogic(), null, 2) + new Usage().value)
