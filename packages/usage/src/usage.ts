@@ -7,3 +7,7 @@ export class Usage implements SomeType {
 export let applicationLogic = () => {
     return someFunction(7, 'sieben');
 };
+
+const aFunctionWithAnArgumentFromTheSharedPackage = (one:number, two:string, three: SomeType) => {
+
+}
