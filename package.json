@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "clean": "lerna run clean",
-    "build": "tsc --build",
+    "build": "tsc --build packages/usage",
     "start": "lerna run start --stream"
   },
   "devDependencies": {

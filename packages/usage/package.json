@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
+    "clean": "rimraf lib tsconfig.tsbuildinfo",
     "prestart": "tsc --build --verbose",
-    "start": "node dist/index.js",
-    "clean": "rimraf dist lib tsconfig.tsbuildinfo"
+    "start": "node lib/index.js"
   },
   "dependencies": {
     "@playground/shared": "0.1.0"
